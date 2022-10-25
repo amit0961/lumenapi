@@ -13,23 +13,25 @@
 |
 */
 
-$router->get('/get', function () use ($router) {
-    return "I am get";
-    // return $router->app->version();
-});
-$router->post('/post', function () use ($router) {
-    return "I am post";
-    // return $router->app->version();
-});
-$router->put('/put', function () use ($router) {
-    return "I am put";
-    // return $router->app->version();
-});
-$router->delete('/delete', function () use ($router) {
-    return "I am delete";
-    // return $router->app->version();
-});
+// $router->get('/get', function () use ($router) {
+//     return "I am get";
+//     // return $router->app->version();
+// });
+// $router->post('/post', function () use ($router) {
+//     return "I am post";
+//     // return $router->app->version();
+// });
+// $router->put('/put', function () use ($router) {
+//     return "I am put";
+//     // return $router->app->version();
+// });
+// $router->delete('/delete', function () use ($router) {
+//     return "I am delete";
+//     // return $router->app->version();
+// });
 
-$router->post('/amit', function(){
-    return "I am Amit Saha";
-});
+// $router->post('/amit', function(){
+//     return "I am Amit Saha";
+
+$router->get('/','MyController@my');
+
