@@ -34,4 +34,5 @@
 //     return "I am Amit Saha";
 
 $router->get('/','MyController@my');
+$router->get('/','TestController@test');
 
